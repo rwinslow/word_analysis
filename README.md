@@ -11,7 +11,7 @@ Using Python's built-in os module, the class navigates through a given directory
 Word Count
 ----------
 
-To obtain the list of words and their associated counts as quickly as possible, the dictionary data structure was used. The key was defined as the word and the associated value is the number of times that word was found. As an example, the word 'bottle' was found 5 times, the word 'power' was found 2 times, and the word 'this' was found 12 times in a given passage. The resulting dictionary is shown below:
+To obtain the list of words and their associated counts as quickly as possible, a regular expression to find all normal ASCII characters was used. The data was then stored in a Python dictionary. The key was defined as the word and the associated value is the number of times that word was found. As an example, the word 'bottle' was found 5 times, the word 'power' was found 2 times, and the word 'this' was found 12 times in a given passage. The resulting dictionary is shown below:
 
 | Key | Value |
 | --- | ----- |
