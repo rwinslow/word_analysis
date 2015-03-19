@@ -259,6 +259,7 @@ class word_analysis(object):
 
         return median_value
 
+
 def run():
     try:
         input_directory = sys.argv[1]
@@ -275,7 +276,8 @@ def run():
     except:
         median_file = None
 
-    wa = word_analysis(input_directory, words_file=words_file, median_file=median_file)
+    wa = word_analysis(
+        input_directory, words_file=words_file, median_file=median_file)
     wa.output_word_counts()
 
 if __name__ == '__main__':
