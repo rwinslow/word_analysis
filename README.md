@@ -37,8 +37,8 @@ To determine the median at any point a that set of data, the two conditions were
 
 For an even set of numbers, two indexes are required in order to find the average between two middle values; the one found from the initial division and the next value. For example, the median of the following data is found by taking the average the two marked results.
 
-|0|0|1|1|2|3|4|4|4|4|5|5|
-|-|-|-|-|-|-|-|-|-|-|-|-|
-| | | | |X|X| | | | | | |
+| 0 | 0 | 1 | 1 | 2 | 3 | 4 | 4 | 4 | 4 | 5 | 5 |
+| - | - | - | - | - | - | - | - | - | - | - | - |
+|   |   |   |   | X | X |   |   |   |   |   |   |
 
 
